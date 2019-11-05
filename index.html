@@ -7,7 +7,10 @@
 
     <body>
         <p id='counter'></p>
-        <ul>
+        <button onclick='decrementCount()'>-</button>
+        <button onclick='clearCount()'>Reset</button>
+        <button onclick='incrementCount()'>+</button>
+        <!-- <ul>
             <li>One</li>
             <li>Two</li>
             <li>Three</li>
@@ -16,7 +19,18 @@
             <li class='list-item'>One</li>
             <li class='list-item'>Two</li>
             <li class='list-item'>Three</li>
-        </ol>
+        </ol> -->
+        <span class='span-class' onclick='toggleClass()'>
+            Hello, I'm a span
+        </span>
+        <input id='my-input' />
+        <div class="parent">
+            <button class="child">Click Me</button>
+        </div>
+        <form>
+            <input />
+            <input type='submit'/>
+        </form>
         <script src='index.js'></script>
     </body>
 </html>
